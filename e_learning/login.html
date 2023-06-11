@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tile></tile>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        body {
+            background-color: rgb(189, 185, 191);
+        }
+
+        .login-form {
+            width: 350px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            color: #5a069b;
+
+        }
+
+        .login-form h1 {
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 40px 0;
+
+        }
+
+        .login-form p {
+            font-size: 20px;
+            margin: 15px 0;
+
+        }
+
+        .login-form input {
+            font-size: 16px;
+            width: 100%;
+            padding: 15px 10px;
+            border: 1px;
+            border-radius: 5px;
+
+        }
+
+        .login-form button {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding-left: 10px 15px;
+            width: 50%;
+            border-radius: 5px;
+        }
+
+        .login-form {
+            background-color: rgb(228, 228, 228);
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgb(122, 40, 205), 2px 2px 5px rgb(177, 177, 177);
+            transition: 0.4s ease-in-out;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="login-form">
+            <h1>login form</h1>
+            <form action="#" method="post">
+                <p>user name</p>
+                <input type="text" name="user" placeholder="username">
+                <p>password</p>
+                <input type="text" name="password" plaseholder="password">
+                <button type="submit"><a href="home.html">login</a></button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
